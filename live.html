@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript" src="http://player.wowza.com/player/latest/wowzaplayer.min.js"></script>
+</head>
+<body>
+
+<div id="playerElement" style="width:100%; height:0; padding:0 0 56.25% 0"></div>
+</body>
+<script type="text/javascript">
+WowzaPlayer.create('playerElement',
+    {
+    "license":"PLAY1-kTxNU-ckmwH-nAk9J-ucNat-r8wrn",
+    "title":"",
+    "description":"",
+    "sourceURL":"http%3A%2F%2F192.168.1.5%3A1935%2Flive%2F12345%2Fplaylist.m3u8",
+    "autoPlay":false,
+    "volume":"75",
+    "mute":false,
+    "loop":false,
+    "audioOnly":false,
+    "uiShowQuickRewind":true,
+    "uiQuickRewindSeconds":"30"
+    }
+);
+</script>
+</html>
